@@ -1,0 +1,43 @@
+@media screen and (max-width: 770px) {
+  .photo{
+    width: 100% !important;
+    height: 251px !important;
+    margin:0 0 7px !important;
+  }
+}
+.content{
+  padding-bottom: 17px !important;
+}
+.photo_img{
+  width:240px;
+  height:190px;
+  margin:5px;
+  cursor: pointer;
+  transition: box-shadow .3s ease;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: 0 27%;
+  float:left;
+}
+.photo:hover{
+  box-shadow: 0 2px 17px rgba(0,0,0,5);
+}
+.photos_wrap{
+  margin: 20px auto 30px;
+  max-width: 750px;
+  width: 100%;
+}
+.upload_msg{
+  margin:3px auto 5px;
+}
+.button{
+  height: 27px !important;
+  line-height: 27px !important;
+  padding: 0 19px !important;
+}
+.upload_msg_title{
+  font-size:17px;
+}
+.upload_msg_text{
+  color:#808080;
+}

@@ -1,0 +1,87 @@
+@media screen and (max-width: 980px) {
+  .pl_wrap{
+    width: 84% !important;
+    margin: 37% auto !important;
+  }
+  .pl_close{
+    bottom:89% !important;
+    padding: 21px 39px !important;
+  }
+}
+#background_layer{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  z-index: 7;
+  opacity: .7;
+  overflow: hidden;
+}
+#pl{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+.pl_close{
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width:19px;
+  opacity: .8;
+  cursor: pointer;
+  transition: opacity .05s ease;
+  padding: 48px 48px;
+}
+.pl_close:hover{
+  opacity:.4;
+}
+.pl_wrap{
+  width: 40%;
+  box-shadow: 0 2px 17px rgba(0,0,0,.55);
+  margin: 3% auto;
+  background-color: #FFF; 
+  position: relative;
+  border-radius:5px;
+}
+.pl_icon_close{
+  width:24px;
+  height:24px;
+  background: url('/images/icons/close.png') no-repeat;
+}
+.pl_img{
+  width:100%;
+  height:100%;
+  margin-bottom:-5px;
+  border-radius:4px;
+}
+.pl_arrow{
+  position:absolute;
+  top:44%;
+  cursor: pointer;
+  transition:opacity .07s linear;
+}
+.pl_arrow:hover{
+  opacity:.47;
+}
+.arrow_icon{
+  background:url('/images/icons/arrow_right.png?1') no-repeat;
+  width:37px;
+  height:37px;
+}
+.pl_arrow_left{
+  left:-37px;
+  transform:rotate(180deg);
+}
+.pl_arrow_right{
+  right:-37px;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 980px) {
+  #quotes{
+    margin: 22px auto !important;
+    width: 84% !important;
+  }
+}
+#quotes{
+  margin:47px auto;
+  width:49%;
+  font-size: 14px;
+  line-height: 23px;
+}
+.quotes_title{
+  font-size:18px;
+  margin-bottom:9px;
+}
+.quote{
+  padding:3px 0;
+}
